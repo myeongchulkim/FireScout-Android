@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/FSMainFragment">
+
+    <fragment
+        android:id="@+id/FSIntroFragment"
+        android:name="com.alcherainc.app.firescout.view.FSIntroFragment"
+        android:label="fragment_fs_intro"
+        tools:layout="@layout/fragment_fs_intro" >
+        <action
+            android:id="@+id/action_FSIntroFragment_to_FSMainFragment"
+            app:destination="@id/FSMainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/FSMainFragment"
+        android:name="com.alcherainc.app.firescout.view.FSMainFragment"
+        android:label="fragment_fs_main"
+        tools:layout="@layout/fragment_fs_main" />
+</navigation>

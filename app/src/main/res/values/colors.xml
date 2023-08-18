@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="alchera_blue">#FF3B45FF</color>
+    <color name="alchera_sky_blue">#0043FF</color>
+    <color name="alchera_highlight_blue">#FF3B77FF</color>
+    <color name="alchera_primary_variant">#FF2668FF</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="alchera_light_red">#FFFF6A6A</color>
+    <color name="alchera_green">#FF34C759</color>
+</resources>

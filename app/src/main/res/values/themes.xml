@@ -7,7 +7,9 @@
                 @android:color/transparent
             </item>
     </style>
-
+    <style name="FullScreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+    </style>
     <style name="Theme.FireScoutAndroid" parent="Base.Theme.FireScoutAndroid" />
 
 </resources>
